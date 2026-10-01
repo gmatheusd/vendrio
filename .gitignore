@@ -1,0 +1,15 @@
+# Java / Maven
+backend/target/
+*.class
+# Node / Next
+frontend/node_modeules/
+frontedn/out
+frontend/next-env.d.ts
+#IDE / so
+.idea/
+.vscode/
+*.iml
+.DS_Store
+# Ambiente
+.env
+.env.local

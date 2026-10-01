@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: vendrio-db
+    environment:
+      POSTGRES_DB: vendrio
+      POSTGRES_USER: vendrio
+      POSTGRES_PASSWORD: vendrio
+    ports:
+      - "5432:5432"
+    volumes:
+      - vendrio-data:/var/lib/postgresql/data
+
+volumes:
+  vendrio-data:
