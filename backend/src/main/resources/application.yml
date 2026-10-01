@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: vendrio
+  datasource:
+    url: jdbc:postgresql://localhost:5432/vendrio
+    username: vendrio
+    password: vendrio
+  jpa:
+    hibernate:
+      dll-auto: validate
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+  flyway:
+    enabled: true
+
+server:
+  port: 8080
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
