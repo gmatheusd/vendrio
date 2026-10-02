@@ -2,8 +2,9 @@
 backend/target/
 *.class
 # Node / Next
-frontend/node_modeules/
-frontedn/out
+frontend/node_modules/
+frontend/out/
+frontend/.next/
 frontend/next-env.d.ts
 #IDE / so
 .idea/
